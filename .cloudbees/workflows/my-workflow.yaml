@@ -14,7 +14,7 @@ jobs:
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
-          echo "hello world"
+          echo "hello world this is a sonarqube scan"
       - name: Scan with SonarQube
         uses: cloudbees-io/sonarqube-sast-scan-code@v1
         with:
